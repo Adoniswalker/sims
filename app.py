@@ -1,12 +1,7 @@
 from marshmallow import Schema, fields, post_load
 from flask import jsonify
-from models import User
-# from main import create_app
-
-# app = create_app()
-# app.app_context().push()
 from main import app
-
+from models import User
 
 class UserSchema(Schema):
     id = fields.Int()
@@ -18,11 +13,9 @@ class UserSchema(Schema):
         return User(**data)
 
 
-# def do_math():
-# with app.app_context():
 user = User.query.all()
 schema = UserSchema(many=True)
-# return schema.dump(user)
+
 
 @app.route('/')
 def hello_world():

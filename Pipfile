@@ -11,8 +11,8 @@ flask = "==1.0.2"
 marshmallow = "*"
 sqlalchemy = "*"
 flask-sqlalchemy = "*"
-psycopg2 = "*"
 flask-migrate = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.6.5"
