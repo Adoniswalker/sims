@@ -1,4 +1,5 @@
 .idea/
 .env
 __pycache__
-
+migrations/
+pullrequestslackbot.2019-01-19.private-key.pem

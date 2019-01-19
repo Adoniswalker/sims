@@ -13,6 +13,11 @@ sqlalchemy = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 psycopg2 = "*"
+flask-restplus = "*"
+werkzeug = "*"
+pygithub = "*"
+flask-script = "*"
+pem = "*"
 
 [requires]
 python_version = "3.6.5"
